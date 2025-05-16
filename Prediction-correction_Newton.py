@@ -13,7 +13,8 @@ eigenvalues = eig(A)[0]  # Valeurs propres de A
 
 K = 100  # Nombre de points sur la frontière
 tol = 1e-6  # Tolérance pour Newton
-epsilon_init = 0.1  # Valeur initiale de ε
+epsilon_init = 0.26
+# Valeur initiale de ε
 max_iter = 100  # Itérations max pour Newton
 
 fig, ax = plt.subplots(figsize=(10, 8))
