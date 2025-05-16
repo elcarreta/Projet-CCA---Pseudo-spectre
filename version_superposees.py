@@ -14,7 +14,7 @@ eigenvalues = eig(A)[0]
 # Paramètres Newton
 K = 100
 tol = 1e-6
-epsilon_init = 0.1
+epsilon_init = 0.26
 max_iter = 100
 
 # Paramètres GRID
